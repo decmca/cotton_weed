@@ -1,0 +1,480 @@
+{
+  "dataset_statistics": {
+    "original_images": 848,
+    "competition_train": 542,
+    "competition_val": 133,
+    "competition_test": 170,
+    "competition_total": 845
+  },
+  "image_set_differences": {
+    "common_images": 845,
+    "missing_in_competition": 3,
+    "added_in_competition": 0,
+    "missing_list": [
+      "20200722_CanonEOSRebelT7_KH_1",
+      "20200722_CanonEOSRebelT7_KH_28",
+      "2020706_Phone_10"
+    ],
+    "added_list": []
+  },
+  "image_content_changes": {
+    "identical_images": 845,
+    "modified_images": 0,
+    "modified_list": [],
+    "modifications": {}
+  },
+  "label_statistics": {
+    "original_annotations": 848,
+    "competition_labels": 675,
+    "common_labeled_images": 675,
+    "only_in_original": 173,
+    "only_in_competition": 0
+  },
+  "label_comparisons": {
+    "identical_labels": 657,
+    "modified_labels": 18,
+    "conversion_errors": 0,
+    "modification_types": {
+      "box_count_changed": 11,
+      "class_changes": 2,
+      "coordinate_changes": 7
+    },
+    "box_count_changes_list": [
+      "20200526_iPhone8_CH_37",
+      "20200624_iPhone6_SY_136",
+      "20200624_iPhone6_SY_147",
+      "20200624_iPhone6_SY_29",
+      "20200625_NIKOND3300_YL_160",
+      "20200727_iPhone6_SY_33",
+      "20200819_NIKOND3300_YL_182",
+      "20200819_NIKOND3300_YL_277",
+      "20200819_NIKOND3300_YL_492",
+      "20200819_NIKOND3300_YL_598",
+      "20200819_NIKOND3300_YL_638"
+    ],
+    "class_changes_list": [
+      "20200624_iPhone6_SY_110",
+      "20200722_CanonEOSRebelT7_KH_114"
+    ],
+    "coordinate_changes_list": [
+      "20190613_6062W_CM_39",
+      "20200526_iPhone8_CH_44",
+      "20200624_iPhone6_SY_110",
+      "20200624_iPhone6_SY_30",
+      "20200722_CanonEOSRebelT7_KH_109",
+      "20200722_CanonEOSRebelT7_KH_114",
+      "20200819_NIKOND3300_YL_876"
+    ],
+    "conversion_errors_list": [],
+    "detailed_comparisons": {
+      "20190613_6062W_CM_39": {
+        "identical": false,
+        "num_boxes": 2,
+        "box_count_changed": false,
+        "differences": [
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 1,
+              "x": 0.8650716145833334,
+              "y": 0.1405029296875,
+              "w": 0.2692057291666667,
+              "h": 0.281005859375
+            },
+            "competition": {
+              "class": 1,
+              "x": 0.873046875,
+              "y": 0.0758056640625,
+              "w": 0.2532552182674408,
+              "h": 0.151611328125
+            },
+            "diff_x": 0.00797526041666663,
+            "diff_y": 0.064697265625,
+            "diff_w": 0.01595051089922589,
+            "diff_h": 0.12939453125
+          }
+        ],
+        "num_differences": 1
+      },
+      "20200526_iPhone8_CH_37": {
+        "identical": false,
+        "num_boxes_original": 9,
+        "num_boxes_competition": 10,
+        "box_count_changed": true
+      },
+      "20200526_iPhone8_CH_44": {
+        "identical": false,
+        "num_boxes": 1,
+        "box_count_changed": false,
+        "differences": [
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 2,
+              "x": 0.45072751322751325,
+              "y": 0.25768849206349204,
+              "w": 0.3386243386243386,
+              "h": 0.2881944444444444
+            },
+            "competition": {
+              "class": 2,
+              "x": 0.31812170147895813,
+              "y": 0.2628968358039856,
+              "w": 0.6038359999656677,
+              "h": 0.2867063581943512
+            },
+            "diff_x": 0.13260581174855512,
+            "diff_y": 0.0052083437404935595,
+            "diff_w": 0.2652116613413291,
+            "diff_h": 0.0014880862500932235
+          }
+        ],
+        "num_differences": 1
+      },
+      "20200624_iPhone6_SY_110": {
+        "identical": false,
+        "num_boxes": 6,
+        "box_count_changed": false,
+        "differences": [
+          {
+            "type": "class_mismatch",
+            "original": {
+              "class": 2,
+              "x": 0.1039624183006536,
+              "y": 0.18903186274509803,
+              "w": 0.2079248366013072,
+              "h": 0.13480392156862744
+            },
+            "competition": {
+              "class": 0,
+              "x": 0.9761029481887817,
+              "y": 0.2311580926179886,
+              "w": 0.04779411852359772,
+              "h": 0.06648284196853638
+            }
+          },
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 2,
+              "x": 0.43566176470588236,
+              "y": 0.43903186274509803,
+              "w": 0.4709967320261438,
+              "h": 0.32598039215686275
+            },
+            "competition": {
+              "class": 2,
+              "x": 0.1096813753247261,
+              "y": 0.2873774468898773,
+              "w": 0.07883986830711365,
+              "h": 0.05821078270673752
+            },
+            "diff_x": 0.32598038938115625,
+            "diff_y": 0.15165441585522071,
+            "diff_w": 0.39215686371903014,
+            "diff_h": 0.26776960945012523
+          },
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 2,
+              "x": 0.5328839869281046,
+              "y": 0.7553615196078431,
+              "w": 0.41299019607843135,
+              "h": 0.31035539215686275
+            },
+            "competition": {
+              "class": 2,
+              "x": 0.4360702633857727,
+              "y": 0.4345894753932953,
+              "w": 0.46200981736183167,
+              "h": 0.3140318691730499
+            },
+            "diff_x": 0.09681372354233186,
+            "diff_y": 0.32077204421454786,
+            "diff_w": 0.049019621283400316,
+            "diff_h": 0.003676477016187174
+          },
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 2,
+              "x": 0.8078022875816994,
+              "y": 0.06495098039215687,
+              "w": 0.38357843137254904,
+              "h": 0.12990196078431374
+            },
+            "competition": {
+              "class": 2,
+              "x": 0.5337010025978088,
+              "y": 0.751838207244873,
+              "w": 0.405637264251709,
+              "h": 0.3033088147640228
+            },
+            "diff_x": 0.2741012849838905,
+            "diff_y": 0.6868872268527162,
+            "diff_w": 0.02205883287915994,
+            "diff_h": 0.1734068539797091
+          },
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 2,
+              "x": 0.8447712418300654,
+              "y": 0.9079350490196079,
+              "w": 0.309640522875817,
+              "h": 0.18351715686274508
+            },
+            "competition": {
+              "class": 2,
+              "x": 0.8078020215034485,
+              "y": 0.06495100259780884,
+              "w": 0.38357800245285034,
+              "h": 0.12990200519561768
+            },
+            "diff_x": 0.03696922032661687,
+            "diff_y": 0.842984046421799,
+            "diff_w": 0.07393747957703334,
+            "diff_h": 0.05361515166712741
+          }
+        ],
+        "num_differences": 5
+      },
+      "20200624_iPhone6_SY_136": {
+        "identical": false,
+        "num_boxes_original": 2,
+        "num_boxes_competition": 4,
+        "box_count_changed": true
+      },
+      "20200624_iPhone6_SY_147": {
+        "identical": false,
+        "num_boxes_original": 6,
+        "num_boxes_competition": 7,
+        "box_count_changed": true
+      },
+      "20200624_iPhone6_SY_29": {
+        "identical": false,
+        "num_boxes_original": 2,
+        "num_boxes_competition": 5,
+        "box_count_changed": true
+      },
+      "20200624_iPhone6_SY_30": {
+        "identical": false,
+        "num_boxes": 7,
+        "box_count_changed": false,
+        "differences": [
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 0,
+              "x": 0.21629901960784315,
+              "y": 0.8026960784313726,
+              "w": 0.22508169934640523,
+              "h": 0.21568627450980393
+            },
+            "competition": {
+              "class": 0,
+              "x": 0.22794117033481598,
+              "y": 0.37913602590560913,
+              "w": 0.12091503292322159,
+              "h": 0.0885416641831398
+            },
+            "diff_x": 0.011642150726972833,
+            "diff_y": 0.42356005252576345,
+            "diff_w": 0.10416666642318365,
+            "diff_h": 0.12714461032666413
+          },
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 0,
+              "x": 0.22732843137254902,
+              "y": 0.38066789215686275,
+              "w": 0.12622549019607843,
+              "h": 0.09221813725490197
+            },
+            "competition": {
+              "class": 0,
+              "x": 0.3014705777168274,
+              "y": 0.8483455777168274,
+              "w": 0.3848039209842682,
+              "h": 0.3026960790157318
+            },
+            "diff_x": 0.07414214634427838,
+            "diff_y": 0.46767768555996464,
+            "diff_w": 0.25857843078818976,
+            "diff_h": 0.21047794176082985
+          },
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 0,
+              "x": 0.3574346405228758,
+              "y": 0.8711703431372549,
+              "w": 0.2761437908496732,
+              "h": 0.25704656862745096
+            },
+            "competition": {
+              "class": 0,
+              "x": 0.30228757858276367,
+              "y": 0.28538602590560913,
+              "w": 0.05882352963089943,
+              "h": 0.07873774319887161
+            },
+            "diff_x": 0.05514706194011215,
+            "diff_y": 0.5857843172316458,
+            "diff_w": 0.2173202612187738,
+            "diff_h": 0.17830882542857934
+          }
+        ],
+        "num_differences": 3
+      },
+      "20200625_NIKOND3300_YL_160": {
+        "identical": false,
+        "num_boxes_original": 2,
+        "num_boxes_competition": 1,
+        "box_count_changed": true
+      },
+      "20200722_CanonEOSRebelT7_KH_109": {
+        "identical": false,
+        "num_boxes": 3,
+        "box_count_changed": false,
+        "differences": [
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 2,
+              "x": 0.12716666666666668,
+              "y": 0.79375,
+              "w": 0.25433333333333336,
+              "h": 0.2665
+            },
+            "competition": {
+              "class": 2,
+              "x": 0.11733333021402359,
+              "y": 0.7206249833106995,
+              "w": 0.23466666042804718,
+              "h": 0.40024998784065247
+            },
+            "diff_x": 0.009833336452643088,
+            "diff_y": 0.07312501668930049,
+            "diff_w": 0.019666672905286176,
+            "diff_h": 0.13374998784065245
+          }
+        ],
+        "num_differences": 1
+      },
+      "20200722_CanonEOSRebelT7_KH_114": {
+        "identical": false,
+        "num_boxes": 6,
+        "box_count_changed": false,
+        "differences": [
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 1,
+              "x": 0.58925,
+              "y": 0.09675,
+              "w": 0.1655,
+              "h": 0.1595
+            },
+            "competition": {
+              "class": 1,
+              "x": 0.9291666746139526,
+              "y": 0.7586249709129333,
+              "w": 0.14133332669734955,
+              "h": 0.20374999940395355
+            },
+            "diff_x": 0.3399166746139526,
+            "diff_y": 0.6618749709129333,
+            "diff_w": 0.02416667330265046,
+            "diff_h": 0.04424999940395355
+          },
+          {
+            "type": "class_mismatch",
+            "original": {
+              "class": 1,
+              "x": 0.92825,
+              "y": 0.76075,
+              "w": 0.14316666666666666,
+              "h": 0.212
+            },
+            "competition": {
+              "class": 2,
+              "x": 0.5892500281333923,
+              "y": 0.09674999862909317,
+              "w": 0.1655000001192093,
+              "h": 0.15950000286102295
+            }
+          }
+        ],
+        "num_differences": 2
+      },
+      "20200727_iPhone6_SY_33": {
+        "identical": false,
+        "num_boxes_original": 1,
+        "num_boxes_competition": 3,
+        "box_count_changed": true
+      },
+      "20200819_NIKOND3300_YL_182": {
+        "identical": false,
+        "num_boxes_original": 3,
+        "num_boxes_competition": 2,
+        "box_count_changed": true
+      },
+      "20200819_NIKOND3300_YL_277": {
+        "identical": false,
+        "num_boxes_original": 6,
+        "num_boxes_competition": 12,
+        "box_count_changed": true
+      },
+      "20200819_NIKOND3300_YL_492": {
+        "identical": false,
+        "num_boxes_original": 9,
+        "num_boxes_competition": 10,
+        "box_count_changed": true
+      },
+      "20200819_NIKOND3300_YL_598": {
+        "identical": false,
+        "num_boxes_original": 1,
+        "num_boxes_competition": 2,
+        "box_count_changed": true
+      },
+      "20200819_NIKOND3300_YL_638": {
+        "identical": false,
+        "num_boxes_original": 6,
+        "num_boxes_competition": 5,
+        "box_count_changed": true
+      },
+      "20200819_NIKOND3300_YL_876": {
+        "identical": false,
+        "num_boxes": 1,
+        "box_count_changed": false,
+        "differences": [
+          {
+            "type": "coordinate_mismatch",
+            "original": {
+              "class": 1,
+              "x": 0.5175833333333333,
+              "y": 0.529125,
+              "w": 0.9645,
+              "h": 0.94125
+            },
+            "competition": {
+              "class": 1,
+              "x": 0.5028333067893982,
+              "y": 0.5291249752044678,
+              "w": 0.7820000052452087,
+              "h": 0.9412500262260437
+            },
+            "diff_x": 0.01475002654393509,
+            "diff_y": 2.4795532183041757e-08,
+            "diff_w": 0.18249999475479128,
+            "diff_h": 2.622604367008563e-08
+          }
+        ],
+        "num_differences": 1
+      }
+    }
+  }
+}
