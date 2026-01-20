@@ -1,2 +1,12 @@
 *.png
 *.jpg
+*.parquet
+*.json
+*.pyc
+.3LC
+*.lock
+*.csv
+*.DS_Store
+cottonweed.instructions.md
+.DS_Store
+.DS_Store
